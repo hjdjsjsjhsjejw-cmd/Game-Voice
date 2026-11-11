@@ -1,4 +1,4 @@
-name: Build APK
+ name: Build APK
 on:
   workflow_dispatch:
   push:
@@ -19,4 +19,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: GameVoice-apk
-          path: app/build/outputs/apk/debug/app-debug.apk 
+          path: app/build/outputs/apk/debug/app-debug.apk
